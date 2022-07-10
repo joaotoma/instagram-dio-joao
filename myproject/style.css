@@ -1,0 +1,29 @@
+.main-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.phone-img img{
+    width: 50rem;
+}
+
+
+.login-section{
+}
+
+
+
+
+
+
+.get-the-app img{
+    width: 136px;
+}
