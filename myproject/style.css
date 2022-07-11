@@ -51,6 +51,7 @@ body{
 .continue-as{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .continue-as a{
@@ -104,4 +105,27 @@ body{
 
 .download-options img{
     width: 136px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .phone-img {
+        display: none;
+    }
+
+    .login-options{
+        border: 1px solid transparent;
+        margin: 100px 0px 0px;
+    }
+
+    .not-user{
+        border: 1px solid transparent;
+    }
 }
